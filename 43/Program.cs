@@ -4,11 +4,8 @@ double b1 = ReadInt("Введите значение b1: ");
 double k1 = ReadInt("Введите значение k1: ");
 double b2 = ReadInt("Введите значение b2: ");
 double k2 = ReadInt("Введите значение k2: ");
-double x = -(b1 - b2) / (k1 - k2);
+double x = (b2 - b1) / (k1 - k2);
 double y = k1 * x + b1;
-
-x = Math.Round(x, 3);
-y = Math.Round(y, 3);
 
 Console.WriteLine($"Пересечение в точке: ({x};{y})");
 
